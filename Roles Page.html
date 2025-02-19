@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roles - EVEREST FLEET</title>
+  <style>
+    body {
+      font-family: ARial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    .circle {
+      width: 120px;
+      height: 120px;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 50%;
+      display: inline-block;
+      line-height: 120px;
+      font-size: 18px;
+      margin: 20px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .button {
+      margin-top: 30px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .back-button {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-color: #f44336;
+      color: white;
+      border: none;
+      padding: 10px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Back button that navigates back to the previous page -->
+  <button class="back-button" onclick="window.history.back();">← Back</button>
+  
+  <h2>Select Your Role</h2>
+  <div class="circle" onclick="alert('We are still in development phase. Please visit later.')">Admin</div>
+  <div class="circle" onclick="alert('We are still in development phase. Please visit later.')">Process Excellence</div>
+  <div class="circle" onclick="alert('We are still in development phase. Please visit later.')">HR</div>
+
+  <br><br>
+
+  <!-- Button to navigate to the request form page -->
+  <button class="button" onclick="window.location.href='request form.html'">Raise a Request</button>
+</body>
+</html>
